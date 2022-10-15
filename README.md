@@ -19,3 +19,16 @@ From the T-test of the total lot summary, assuming our significance level was th
 From the t-test of lot 1 and lot 2, it can be seen by their high p-value that, we do not have sufficient evidence to reject the null hypothesis; therefore we conclude that the two means are statistically similar.
 ![Figure7](Resources\Lot3_T_test.png)
 However, from the t-test of lot 3, it can be seen that the p-value, 0.0416 is actually less than our significance level of 0.05. Hence, we have sufficient evidence to reject the null hypothesis and conclude that the two means are statistically different.
+
+## Study Design: MechaCar vs Competition
+To conduct a statistical study to compare performance in the MechaCar vehicle versus performance of vehicles of other manufacturers, we must take into account variables that make one car model more attractive than others. The metrics I would use in this study would be cost, city/hwy mpg, horse power, safety rating. 
+
+I would use a two-sample t test to compare each of these variables within one sample that contains a randomly selected number of mecha cars versus a randoly selected sample from a bigger population of random car models. We would need a wide selection of car makes and car models with the same metrics/data as the mechacar. This way, there is no bias and we can see how each metric of the mechacars weigh up against our randomly selected cars.
+
+Our null and alternative hypothesis would be the following:
+H0 : The difference between our paired observations (the true mean difference, or "μd") is equal to zero
+Ha : The difference between our paired observations (the true mean difference, or "μd") is not equal to zero.
+
+After identifying whether there is a difference in our specific metrics, we can easily identify which model performs better/worse.
+
+
